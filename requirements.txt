@@ -1,6 +1,5 @@
 pyrogram==2.0.106
-PyWinCtl==0.3
-tgcrypto 
+PyWinCtl==0.3 
 requests
 pyromod==3.1.6
 ffmpeg
