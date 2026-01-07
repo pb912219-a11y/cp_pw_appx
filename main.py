@@ -47,9 +47,9 @@ image_list = [
 print(4321)
 bot = Client(
     "bot",
-    api_id="33906141",
-    api_hash="b3795a8f5e9ac6108dde4d96363142c7",
-    bot_token="8526985902:AAHg_ROly7D1C9vzOXTytd4Q89QcjEbvBgQ"
+    api_id=api_id,
+    api_hash=api_hash,
+    bot_token=bot_token
 )
 
 @bot.on_message(filters.command(["start"]))
