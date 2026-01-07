@@ -1,5 +1,6 @@
 pyrogram==2.0.106
 pyromod==3.1.6
+tgcrypto==1.2.5
 requests
 cloudscraper
 beautifulsoup4==4.12.2
