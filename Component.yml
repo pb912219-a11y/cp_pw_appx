@@ -1,0 +1,36 @@
+apiVersion: core.choreo.dev/v1beta1
+kind: Component
+metadata:
+  name: telegram-bot
+  description: Pyrogram based Telegram bot (ENV configured)
+spec:
+  type: Service
+  owner: default
+  lifecycle: Production
+
+  build:
+    buildpack:
+      language: python
+      version: "3.9"
+
+  run:
+    command:
+      - python
+      - main.py
+
+  resources:
+    cpu: "500m"
+    memory: "1024Mi"
+
+  env:
+    - name: API_ID
+      value: "REPLACE_ME"
+
+    - name: API_HASH
+      value: "REPLACE_ME"
+
+    - name: BOT_TOKEN
+      value: "REPLACE_ME"
+
+    - name: AUTH_USERS
+      value: "123456789,987654321"
