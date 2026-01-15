@@ -24,13 +24,13 @@ spec:
 
   env:
     - name: API_ID
-      value: "REPLACE_ME"
+      value: "33906141"
 
     - name: API_HASH
-      value: "REPLACE_ME"
+      value: "b3795a8f5e9ac6108dde4d96363142c7"
 
     - name: BOT_TOKEN
-      value: "REPLACE_ME"
+      value: "8526985902:AAHg_ROly7D1C9vzOXTytd4Q89QcjEbvBgQ"
 
     - name: AUTH_USERS
-      value: "123456789,987654321"
+      value: "8568686155"
